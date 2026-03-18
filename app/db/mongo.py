@@ -9,4 +9,6 @@ MONGO_URL = os.getenv("MONGO_URL")
 client = MongoClient(MONGO_URL)
 
 db = client["mydatabase"]
+
+#tabla
 users_collection = db["users"]
